@@ -46,7 +46,7 @@ function NavBar() {
               <Web3ConnectButton />
             </div>
           </div>
-          <div className="col-md-4 TopLargeMiddleSec">
+          <div className="col-md-4 TopLargeMiddleSec ">
             <Link to="/home" style={{ marginLeft: "40px" }}>
               <Image src={rarefnd_logo} className="logo" />
             </Link>
