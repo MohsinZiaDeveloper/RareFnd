@@ -1,16 +1,29 @@
 .logo {
 	width: 100px;
-	height: 60px;
-	margin-top: -7px;
+	height: 50px;
+	
 }
 
 .navbar {
   display: block;
   font-family: Avenir,sans-serif;
 }
+.TopLargeMiddleSec{
+	display: flex;
+	justify-content: center;
+}
+.ConnectBtnLarge{
+	padding-left: 1rem;
+}
+.TopLargeRightSec{
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
 .CollapsButtonsDivLarge{
 	display: flex;
 	justify-content: end;
+	align-items: center;
 }
 .ConnectBtn{
 	display: none;
@@ -34,6 +47,11 @@
 .btn-signup {
 	width: 140px;
 	height: fit-content;
+}
+.secNavRow{
+	padding-top: 1rem;
+	margin-top: 1rem;
+	border-top: 1px solid rgba(54, 69, 79 ,.8);
 }
 
 #nav-bar .dropdown-menu {
@@ -83,6 +101,7 @@
 	}
 	.ConnectBtnLarge{
 		display: none;
+	
 	}
 	.navbar-collapse{
 		height: 100vh;

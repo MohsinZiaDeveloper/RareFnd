@@ -41,15 +41,17 @@ function NavBar() {
         sticky="top"
       >
         <div className="row topNavRow">
-          <div className="col-6 TopLargeleftSec">
-            <Link to="/home" style={{ marginLeft: "40px" }}>
-              <Image src={rarefnd_logo} className="logo" />
-            </Link>
+          <div className="col-md-4 TopLargeleftSec">
             <div className="ConnectBtnLarge">
               <Web3ConnectButton />
             </div>
           </div>
-          <div className="col-6 TopLargeRightSec">
+          <div className="col-md-4 TopLargeMiddleSec">
+            <Link to="/home" style={{ marginLeft: "40px" }}>
+              <Image src={rarefnd_logo} className="logo" />
+            </Link>
+          </div>
+          <div className="col-md-4 TopLargeRightSec">
             <div
               className="CollapsButtonsDivLarge"
               style={{ marginRight: "20px" }}
@@ -95,7 +97,7 @@ function NavBar() {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row secNavRow">
           <div className="col-12">
             <button
               className="navbar-toggler"
