@@ -1,0 +1,31 @@
+.no-image-card-text {
+  width: 80ch;
+}
+.MainCard{
+  height: 100% !important;
+}
+.CardRow{
+  height: 100% !important;
+}
+.workBatterButton ,.expertButton
+{  font-family: Avenir,sans-serif !important;
+
+}
+.CardContainer{
+  height: 100%;
+}
+.MainCardContainer{
+  font-family: Avenir,sans-serif;
+}
+.cardTitle{
+  font-size: 2rem !important ;
+}
+.CardText{
+  font-weight: 100 !important;
+  line-height: 1.5 !important;
+  font-size: 1.2rem !important;
+
+}
+.cardButton{
+  font-size: 1rem !important;
+}

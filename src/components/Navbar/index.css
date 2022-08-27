@@ -1,0 +1,121 @@
+.logo {
+	width: 100px;
+	height: 60px;
+	margin-top: -7px;
+}
+
+.navbar {
+  display: block;
+  font-family: Avenir,sans-serif;
+}
+.CollapsButtonsDivLarge{
+	display: flex;
+	justify-content: end;
+}
+.ConnectBtn{
+	display: none;
+}
+.CollapsButtonsDiv{
+	display: none;
+}
+.navbar-nav{
+	font-size: 18px;
+
+}
+.topNavRow{
+	padding-top: 0.2rem;
+}
+.TopLargeleftSec{
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+}
+.btn-log-in,
+.btn-signup {
+	width: 140px;
+	height: fit-content;
+}
+
+#nav-bar .dropdown-menu {
+	margin-bottom: 16px;
+}
+
+.navbar .divider-vertical {
+	height: 30px;
+	margin: 0 9px;
+	margin-top: 5px;
+	border-right: 1px solid #919191;
+	border-left: 1px solid #919191;
+}
+
+.navbar-inverse .divider-vertical {
+	border-right-color: #222222;
+	border-left-color: #111111;
+}
+
+.CollapsNavbar{
+	gap: 20px;
+}
+/* Collaps Navbar  */
+.navbar-toggler{
+	position: absolute;
+	right: 0;
+	top: 1rem;
+}
+
+@media (max-width: 768px) {
+	.navbar-collapse .nav > .divider-vertical {
+		display: none;
+	}
+	.CollapsNavbar{
+		/* border: 1px solid red; */
+		padding-top: 30px;
+	}
+	.CollapsButtonsDiv{
+		display: block;
+		margin-top: 40px;
+		
+	}
+	.TopLargeleftSec{
+		display: flex;
+		justify-content: space-between;
+		
+	}
+	.ConnectBtnLarge{
+		display: none;
+	}
+	.navbar-collapse{
+		height: 100vh;
+	}
+	.ConnectBtn{
+		margin-top: 20px;
+		display: block;
+	}
+	.CollapsButtonsDivLarge{
+		display: none;
+	}
+}
+
+.nav-bar-item {
+	display: inline-block;
+	position: relative;
+	color: #ffc007;
+}
+
+.nav-bar-item:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #ffc007;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+
+.nav-bar-item:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
