@@ -5,6 +5,7 @@
 	"dependencies": {
 		"@coinbase/wallet-sdk": "^3.4.0",
 		"@emailjs/browser": "^3.6.2",
+		"@emotion/styled": "^11.10.0",
 		"@mui/material": "^5.10.0",
 		"@testing-library/jest-dom": "^5.16.4",
 		"@testing-library/react": "^13.3.0",
